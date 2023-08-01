@@ -1,0 +1,38 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .buttons-wrapper {
+    flex: 1;
+    overflow-x: hidden;
+  }
+  
+  .buttons {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 4px;
+    white-space: nowrap;
+  }
+  
+  .arrow {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .left-arrow {
+    border-radius: 50% 0 0 50%;
+  }
+  
+  .right-arrow {
+    border-radius: 0 50% 50% 0;
+  }
+  
