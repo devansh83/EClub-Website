@@ -1,3 +1,7 @@
+.major{
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif
+}
 .button-wrap {
     display: flex;
     justify-content: flex-start; 
@@ -9,7 +13,7 @@
 
 .button-year {
   background-color: #c2fbd7;
-  /* border-radius: 100px; */
+  border-radius: 10px;
   height: 50px;
   box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
   color: green;
@@ -35,7 +39,7 @@
 }
 
 .button-year.clicked{
-    background-color: rgb(62, 167, 62);
+    background-color: rgb(85, 210, 87);
     color: #c2fbd7;
 }
 ::-webkit-scrollbar {
@@ -50,7 +54,7 @@
   }
   
   ::-webkit-scrollbar-thumb:horizontal:hover {
-    background: #59b583; 
+    background: #03d855; 
   }
   
   ::-webkit-scrollbar:vertical {
@@ -68,3 +72,44 @@
   ::-webkit-scrollbar-thumb:vertical:hover {
     background: #828383; 
   }
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-box {
+    position: relative;
+    width: 330px;
+    padding: 0;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.blur {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.blur img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.5s ease;
+}
+project-details{
+  align-content: center;
+}
+p{
+  color:#ffffff
+}
+
