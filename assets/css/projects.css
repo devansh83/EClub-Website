@@ -82,15 +82,17 @@
 }
 
 .project-box {
-    position: relative;
-    width: 330px;
-    padding: 0;
-    margin: 20px;
-    overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  position: relative;
+  width: 330px;
+  height: 400px; /* Set a fixed height for consistent spacing */
+  padding: 0;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
+
 
 .blur {
   position: relative;
@@ -106,7 +108,7 @@
   object-fit: cover;
   transition: filter 0.5s ease;
 }
-project-details{
+.project-details{
   align-content: center;
 }
 p{

@@ -11,7 +11,7 @@ function handleButtonClick(event) {
     event.target.classList.add("clicked");
 
     const selectedYear = event.target.id.replace("button", ""); // Extract year from button id
-
+    
     // Show/hide projects based on the selected year
     projectBoxes.forEach(projectBox => {
         const projectYear = projectBox.getAttribute("data-year");
