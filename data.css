@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ruwudu&display=swap');
+ 
+body {
+    
+    background: url("images/l.jpg");
+    background-attachment: fixed;
+    
+    
+}
+.ul li{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ruwudu', serif;
+}
+.container1 {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    padding: 12% 0;
+}
+
+.card {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+}
+
+.card_title {
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing {
+    font-weight: normal;
+    font-size: 96px;
+}
+
+.pricing .small {
+    font-size: 16px;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.ul {
+    
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.features{
+    width: 100%;
+}
+
+.ul li {
+    padding-bottom: 10px;
+    
+}
+.ul{list-style-type:none;}
+.ul li a{
+  text-decoration:none;
+  color:#3366ff;
+  font-size:15px;
+}
+.head{
+  font-size:18px;
+}
+a.cta_btn {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: rgba(21, 23, 24, 0.7);
+    border-radius: 29px;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: background .3s ease;
+}
+
+a.cta_btn:hover {
+    background: #000;
+}
+.link1 {
+    position: fixed;
+    background-color: #D12322;
+    padding: 23px 40px;
+    right: -99px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+
+.link1 i {
+    padding-left: 7px;
+}
+
+.link1:hover {
+    text-decoration: underline;
+    background-color: black;
+}
+.collapsible,
+.collapsible a {
+    cursor: pointer;
+    user-select: none;
+    color: #AADB1E;
+    list-style-type: none;
+    font-family: 'Ruwudu', serif;
+}
+
+h4 {
+    font-family: 'Ruwudu', serif;
+    font-size: 18px;
+    color: rgb(190, 195, 195);
+}
+
+.content {
+    display: none;
+    list-style-type: none;
+
+}
+
+.list,
+.list a {
+    cursor: pointer;
+    user-select: none;
+    color: #AADB1E;
+    list-style-type: none;
+    font-family: 'Ruwudu', serif;
+}
+
+.content li a {
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: #3366ff;
+    font-family: 'Ruwudu', serif;
+}
+
+.collapsible.active .content {
+    display: block;
+}
+@media only screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2%;
+        padding-bottom: 25%;
+    }
+
+    .container1 {
+        padding: 0 1rem;
+    }
+
+    
+
+    .card {
+        padding: 20px;
+    }
+
+    .card_title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .pricing {
+        font-size: 52px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    a.cta_btn {
+        font-size: 11px;
+    }
+}
+.book {
+        width: 300px;
+        height: auto;
+        background-color: aquamarine;
+        color: #233a7e;
+        cursor: pointer;
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 35px;
+        padding: 8px;
+    }
+
+.book a{
+    color:#000;
+    text-decoration: none;
+}
