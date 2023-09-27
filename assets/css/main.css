@@ -3196,9 +3196,9 @@ input, select, textarea {
 
 /* Wrapper */
 
-	.wrapper {
+	/* .wrapper {
 		padding: 6em 0 4em 0;
-	}
+	} */
 
 		.wrapper.style2 {
 			background: #e44c65;
@@ -3533,7 +3533,7 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
+		padding: 2em 0;
 		text-align: center;
 	}
 
@@ -3644,7 +3644,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4.5em 0;
+				padding: 2em 0;
 			}
 
 	}
