@@ -3,15 +3,6 @@
   font-family:Garamond;
   
 }
-.bg_image {
-  background-image: url('../../images/fabio-oyXis2kALVg-unsplash.jpg'); /* Replace 'your-image.jpg' with your image file path */
-  background-size: cover; /* Adjust as needed to cover the entire section */
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* This keeps the backround fixed while scrolling */
-  background-position: center center; /* Center the background image */
-  background-color: rgba(100, 100, 100, 0.7); /* Adjust the RGBA values for the desired transparency */
-  padding: 20px; /* Add padding to the content for better readability */
-}
 .button-wrap {
     display: flex;
     justify-content: flex-start; 
@@ -26,7 +17,7 @@
   background-color: #c74151;
   border-radius: 10px;
   height: 50px;
-  box-shadow: rgba(7, 50, 92, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  /* box-shadow: rgba(7, 50, 92, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px; */
   color: whitesmoke;
   cursor: pointer;
   display: inline-block;
